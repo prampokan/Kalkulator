@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@media screen and (max-width: 513px) {
+.button {padding: 10px;}}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: right;
+    background-color:darkgray;
+    border: 1px solid darkgray;
+    box-shadow: 5px 5px 10px 2px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.display{
+    padding: 10px;
+}
+.flex-container-row{
+    display: flex;
+}
+.button{
+    flex-basis: 25%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 2px 1px black;
+    cursor: pointer;
+    margin: 5px;
+}
+.operator,
+.negative,
+.equals {
+  background: gray;
+  color: whitesmoke;
+}
+.clear{
+    background-color: darkorange;
+}
+.button:hover{
+    border: 1px solid gray;
+    box-shadow: 0 1px 1px 0 black;
+}
+.double{
+    flex-basis: 57%;
+}
